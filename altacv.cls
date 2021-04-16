@@ -137,6 +137,12 @@
   \ifstrequal{#4}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#4}}\par}
   \medskip
 }
+\newcommand{\cvproject}[2]{%
+  {\large\color{emphasis}#1\par}
+  \smallskip
+  \textbf{\faMapMarker\hspace{0.5em}\color{accent}#2}\par
+  \medskip
+}
 
 \newcommand{\cvachievement}[3]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
